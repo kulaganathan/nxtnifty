@@ -1,0 +1,58 @@
+body {
+  background-image: url(../img/backgradi.jpg);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: minmax(100px,3);
+}
+
+.header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e97827;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.content{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: rgb(233, 120, 39);
+ grid-row-start: 2;
+ grid-column-start: 1;
+ grid-column-end: 3;
+}
+
+.footer{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: #fde401;
+ grid-row-start: 3;
+ grid-column-start: 1;
+ grid-column-end: 3;
+ text-align: center;
+}
+
+.navbar-custom {
+}
+
+.contentHeader{
+  color: white;
+}
+
+.row{
+padding: 20px;
+margin-bottom: 20px;
+  background-color: #1f1f1f;
+}
+
+.col{
+  padding-bottom: 20px;
+}
